@@ -8,10 +8,10 @@ public class uri1003 {
 	Locale.setDefault(Locale.US);	
 	Scanner sc = new Scanner(System.in);
 
-   double num1 = sc.nextDouble();
-   double num2 = sc.nextDouble();
+   int num1 = sc.nextInt();
+   int num2 = sc.nextInt();
    
-   double soma = num1 + num2;
+   int soma = num1 + num2;
    
    System.out.println("SOMA = " + soma);
    
