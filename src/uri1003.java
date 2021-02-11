@@ -1,21 +1,24 @@
-import java.util.Locale;
+import java.io.IOException;
 import java.util.Scanner;
+
 
 public class uri1003 {
 
-	public static void main(String[] args) {
-     
-	Locale.setDefault(Locale.US);	
-	Scanner sc = new Scanner(System.in);
+	public static void main(String[] args)throws IOException {
 
-   int num1 = sc.nextInt();
-   int num2 = sc.nextInt();
-   
-   int soma = num1 + num2;
-   
-   System.out.println("SOMA = " + soma);
-   
-   sc.close();
+
+		Scanner sc = new Scanner(System.in);
+
+		int A, B, soma;
+
+		A = sc.nextInt();
+		B = sc.nextInt();
+
+		soma = A + B;
+
+		System.out.println("SOMA = " + soma);
+
+		sc.close();
 	}
 
 }

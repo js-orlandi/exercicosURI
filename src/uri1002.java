@@ -8,7 +8,13 @@ public class uri1002 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner (System.in);
 		
-		double pi = 3.14159
+		double pi = 3.14159, raio, area;
+		
+		raio = sc.nextDouble();
+		
+		area = pi * raio * raio;
+		
+		System.out.printf("A=%.4f%n",area);
 	
 	}
 
